@@ -4,10 +4,8 @@ div {
 
 header {
   width: 80%;
-  /*background-size: cover;
-background-image: url("./laundrybanner.jpg");*/
-display: block;
-margin: 0 auto 20px auto;
+  display: block;
+  margin: 0 auto 20px auto;
   padding: 5px 5px;
 }
 
@@ -35,17 +33,14 @@ button {
   display: block;
 }
 
-#logo {
-}
-
 #banner {
   width: 100%;
   border: 1px solid #0042AA;
 }
 
 #text_block, #form_entry, #form_results {
-    border: 1px solid #002E7B;
-    width: 45%;
+  border: 1px solid #002E7B;
+  width: 45%;
 }
 
 #middle_container {

@@ -4,54 +4,14 @@ div {
 
 header {
   width: 80%;
-  /*background-size: cover;
-background-image: url("./laundrybanner.jpg");*/
-display: block;
-margin: 0 auto 20px auto;
-
-}
-
-#logo {
-
-}
-
-#banner {
-  width: 100%;
-  border: 1px solid #0042AA;
-  /*display: block;
-  margin: 0 auto 20px auto;*/
-}
-
-
-#text_block, #form_entry, #form_results {
-    border: 1px solid #002E7B;
-    width: 45%;
-}
-
-
-#middle_container {
-  width: 80%;
+  display: block;
   margin: 0 auto 20px auto;
-  overflow: auto;
-  color: #002E7B;
-}
-
-#text_block {
-  float: left;
-}
-
-#form_entry {
-  float: right;
-  min-width: 220px;
-  display: flex;
-  justify-content: center;
 }
 
 label {
   display: inline-block;
   width: 100px;
   margin-top: 3px;
-
 }
 
 input, textarea, select {
@@ -71,6 +31,33 @@ button {
   display: block;
 }
 
+#banner {
+  width: 100%;
+  border: 1px solid #0042AA;
+}
+
+#text_block, #form_entry, #form_results {
+  border: 1px solid #002E7B;
+  width: 45%;
+}
+
+#middle_container {
+  width: 80%;
+  margin: 0 auto 20px auto;
+  overflow: auto;
+  color: #002E7B;
+}
+
+#text_block {
+  float: left;
+}
+
+#form_entry {
+  float: right;
+  min-width: 220px;
+  display: flex;
+  justify-content: center;
+}
 
 #form_results {
   clear: both;

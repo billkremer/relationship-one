@@ -15,16 +15,11 @@ textarea {
 
 .submit_button {
   margin: 10px auto 10px auto;
-  /*font-size: 1.5em;*/
-  /*background-color: #0042AA;*/
-  /*color: white;*/
   display: block;
-  /*display: flex;
-  justify-content: center;*/
 }
 
 #header {
-    padding: 0 0;
+  padding: 0 0;
 }
 
 #banner {
