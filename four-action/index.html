@@ -5,6 +5,9 @@
   <title>Relationship One Front-End Challenge</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="./script.js" charset="utf-8"></script>
+
 
 </head>
 <body>
@@ -45,7 +48,7 @@
 
               <label for="country">Country:</label>
               <select type="select" name="country" id="country" />
-              <option value="Please select">Please select</option>
+              <option value="">Please select</option>
               <option value="United States">United States</option>
               <option value="United Kingdom">United Kingdom</option>
               <option value="Canada">Canada</option>
@@ -305,7 +308,7 @@
                 </select><br />
 
                 <label for="state">State:</label>
-                <select type="select" name="state" id="state" />
+                <select type="select" name="state" id="state" disabled/>
                 <option value="">Please Select</option>
                 <option value="Alabama">Alabama</option>
                 <option value="Alaska">Alaska</option>
@@ -362,7 +365,7 @@
 
               <label for="additional_comments">Additional Comments:</label>
               <textarea name="additional_comments" id="additional_comments"></textarea><br />
-              <button class="btn btn-primary submit_button" type="button">Submit</button>
+              <button class="btn btn-primary submit_button" type="submit">Submit</button>
             </form>
           </div>
         </div>
@@ -371,8 +374,6 @@
     <br />
     <div class="row" >
       <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" id="form_results">
-        <p>On Submit: Print out the form information here</p>
-        <p>form element name: value</p>
       </div>
     </div>
   </div>

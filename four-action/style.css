@@ -48,4 +48,10 @@ textarea {
   text-align: center;
   border: 1px solid #A77C00;
   color: #A77C00;
+  margin-bottom: 20px;
+  min-height: 20px;
+}
+
+#form_results > ul {
+  list-style-type: none;
 }
