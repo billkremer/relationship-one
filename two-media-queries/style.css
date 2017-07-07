@@ -1,0 +1,99 @@
+div {
+  padding: 5px 5px;
+}
+
+header {
+  width: 80%;
+  /*background-size: cover;
+background-image: url("./laundrybanner.jpg");*/
+display: block;
+margin: 0 auto 20px auto;
+  padding: 5px 5px;
+}
+
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin-top: 3px;
+}
+
+input, textarea, select {
+  width: 200px;
+  margin-top: 3px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  margin: 10px auto 10px auto;
+  font-size: 1.5em;
+  background-color: #0042AA;
+  color: white;
+  display: block;
+}
+
+#logo {
+}
+
+#banner {
+  width: 100%;
+  border: 1px solid #0042AA;
+}
+
+#text_block, #form_entry, #form_results {
+    border: 1px solid #002E7B;
+    width: 45%;
+}
+
+#middle_container {
+  width: 80%;
+  margin: 0 auto 20px auto;
+  overflow: auto;
+  color: #002E7B;
+}
+
+#text_block {
+  float: left;
+}
+
+#form_entry {
+  float: right;
+  min-width: 220px;
+  display: flex;
+  justify-content: center;
+}
+
+#form_results {
+  clear: both;
+  margin: 20px auto 20px auto;
+  text-align: center;
+  border-color: #A77C00;
+  color: #A77C00;
+}
+
+@media (max-width: 900px) {
+  header {
+    width: 90vw;
+    margin-bottom: 0;
+  }
+
+  #form_results {
+    width: 88vw;
+    margin-bottom: 0;
+  }
+
+  #middle_container {
+    width: 90vw;
+    overflow:hidden;
+  }
+
+  #text_block, #form_entry {
+    width: 98%;
+    float: none;
+    margin-top: 20px;
+  }
+
+}
