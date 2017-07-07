@@ -1,0 +1,54 @@
+label {
+  display: inline-block;
+  width: 110px;
+  margin-top: 3px;
+}
+
+input, textarea, select {
+  width: 190px;
+  margin-top: 3px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit_button {
+  margin: 10px auto 10px auto;
+  /*font-size: 1.5em;*/
+  /*background-color: #0042AA;*/
+  /*color: white;*/
+  display: block;
+  /*display: flex;
+  justify-content: center;*/
+}
+
+#header {
+    padding: 0 0;
+}
+
+#banner {
+  border: 1px solid #0042AA;
+}
+
+#text_block, #form_entry {
+  border: 1px solid #002E7B;
+  color: #002E7B;
+}
+
+#text_block {
+  margin-bottom: 20px;
+}
+
+#form_entry {
+  padding-top: 7px;
+  min-width: 220px;
+  display: flex;
+  justify-content: center;
+}
+
+#form_results {
+  text-align: center;
+  border: 1px solid #A77C00;
+  color: #A77C00;
+}
